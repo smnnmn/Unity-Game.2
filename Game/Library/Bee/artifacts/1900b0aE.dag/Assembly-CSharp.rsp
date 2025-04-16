@@ -360,6 +360,7 @@
 "Assets/Class2th Script/Scripts/Creature.cs"
 "Assets/Class2th Script/Scripts/Stat.cs"
 "Assets/Class3th LifeCycle/Scripts/State.cs"
+"Assets/Class5th Prefab System/Scripts/Ability.cs"
 -langversion:9.0
 
 /deterministic
