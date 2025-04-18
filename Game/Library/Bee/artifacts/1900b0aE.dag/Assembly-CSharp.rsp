@@ -361,6 +361,7 @@
 "Assets/Class2th Script/Scripts/Stat.cs"
 "Assets/Class3th LifeCycle/Scripts/State.cs"
 "Assets/Class5th Prefab System/Scripts/Ability.cs"
+"Assets/Class7th User Interface/Scripts/ButtonManager.cs"
 -langversion:9.0
 
 /deterministic
