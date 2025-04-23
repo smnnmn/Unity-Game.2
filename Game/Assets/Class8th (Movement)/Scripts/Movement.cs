@@ -4,28 +4,25 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
+    [SerializeField] Vector3 direction;
+    [SerializeField] float speed;
     // Start is called before the first frame update
     void Start()
     {
-        transform.position = new Vector3(1, 1, 1);
+
     }
     private void Update()
     {
-        if(Input.GetKey(KeyCode.W))
-        {
-            transform.position += new Vector3(0, 0, 1);
-        }
-        else if (Input.GetKey(KeyCode.A))
-        {
-            transform.position += new Vector3(-1, 0, 0);
-        }
-        else if (Input.GetKey(KeyCode.S))
-        {
-            transform.position += new Vector3(0, 0, -1);
-        }
-        else if (Input.GetKey(KeyCode.D))
-        {
-            transform.position += new Vector3(1, 0, 0);
-        }
+        direction.x = Input.GetAxisRaw("Horizontal");
+        direction.z = Input.GetAxisRaw("Vertical");
+
+        transform.rotation = Quaternion.Euler(0, 0, Mathf.Lerp(transform.rotation.eulerAngles.x, direction.x * (-60), 0.5f));
+
+        direction.Normalize();
+
+        // Time.deltaTime
+        // 마지막 프레임이 완료한ㄴ데 경과한 시간을 초 단위로 반환하는 시간입니다.
+
+        transform.position += direction * Time.deltaTime * speed;
     }
 }
