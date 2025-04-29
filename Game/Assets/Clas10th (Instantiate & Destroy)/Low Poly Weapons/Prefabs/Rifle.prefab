@@ -115,8 +115,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6559362985659250037}
+  - component: {fileID: 3055380591731466140}
   m_Layer: 0
-  m_Name: Rife
+  m_Name: Rifle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -144,6 +145,20 @@ Transform:
   - {fileID: 7576839964966942220}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3055380591731466140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5786097810451525583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32e9d10a610681e41b742f1b54c1ad15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 20
+  interection: 15
 --- !u!1 &5836183803064680627
 GameObject:
   m_ObjectHideFlags: 0

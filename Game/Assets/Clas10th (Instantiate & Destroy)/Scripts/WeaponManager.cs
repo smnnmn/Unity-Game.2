@@ -4,10 +4,23 @@ using UnityEngine;
 
 public class WeaponManager : MonoBehaviour
 {
-    [SerializeField] GameObject prefab;
+    [SerializeField] GameObject[] weapons;
     [SerializeField] Transform parentPosition;
+    [SerializeField] List<GameObject> weaponsList;
+
+    int index = 0;
     private void Start()
     {
-        Instantiate(prefab,parentPosition);
+        for(int i =0;i < weapons.Length; i++)
+        {
+
+        }
+    }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            
+        }
     }
 }
