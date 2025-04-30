@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Knife : Weapon
 {
-    protected override void Attack()
+    public  override string Attack()
     {
         Debug.Log("Knife Attack");
+        return "Knife Attack";
     }
 }

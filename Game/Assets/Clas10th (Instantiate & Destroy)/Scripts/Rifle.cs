@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Rifle : Weapon
 {
-    protected override void Attack()
+    public  override string Attack()
     {
-        Debug.Log(damage + "의 공격력");
+        Debug.Log("Rifle Attack");
+        return "Rifle Attack";
     }
 }

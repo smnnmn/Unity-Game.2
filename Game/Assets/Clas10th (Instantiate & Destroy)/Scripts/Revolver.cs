@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Rivolver : Weapon
 {
-    protected override void Attack()
+    public  override string Attack()
     {
         Debug.Log("Rivolver Attack");
+        return "Rivolver Attack";
     }
 }

@@ -7,5 +7,5 @@ public abstract class Weapon : MonoBehaviour
     [SerializeField] protected int damage;
     [SerializeField] protected float interection;
 
-    protected abstract void Attack();
+    public  abstract string Attack();
 }
