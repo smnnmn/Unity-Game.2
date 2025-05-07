@@ -310,6 +310,33 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 796e32cd1010d3b4a934bd873c9246c7, type: 3}
+--- !u!1 &147106491 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7846167669493067059, guid: 419bf7a95ce43b847833705cfa58c35b, type: 3}
+  m_PrefabInstance: {fileID: 924893268}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &147106492
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147106491}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -9160252344131195527, guid: 02ad78cca7f19f843b49a2e580791919, type: 3}
 --- !u!224 &269701034 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7249854829358390080, guid: 3e01dc6d013788b42aaa842e2bfa42d8, type: 3}
@@ -662,6 +689,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Microwave
       objectReference: {fileID: 0}
+    - target: {fileID: 3051862245945826289, guid: 97f0c639a9eb92b43a377663bfdbfd11, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -673,6 +704,66 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1898750954}
   m_SourcePrefab: {fileID: 100100000, guid: 97f0c639a9eb92b43a377663bfdbfd11, type: 3}
+--- !u!1001 &924893268
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5032153666536681074, guid: 419bf7a95ce43b847833705cfa58c35b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.606
+      objectReference: {fileID: 0}
+    - target: {fileID: 5032153666536681074, guid: 419bf7a95ce43b847833705cfa58c35b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.042914838
+      objectReference: {fileID: 0}
+    - target: {fileID: 5032153666536681074, guid: 419bf7a95ce43b847833705cfa58c35b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.253
+      objectReference: {fileID: 0}
+    - target: {fileID: 5032153666536681074, guid: 419bf7a95ce43b847833705cfa58c35b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5032153666536681074, guid: 419bf7a95ce43b847833705cfa58c35b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5032153666536681074, guid: 419bf7a95ce43b847833705cfa58c35b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5032153666536681074, guid: 419bf7a95ce43b847833705cfa58c35b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5032153666536681074, guid: 419bf7a95ce43b847833705cfa58c35b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5032153666536681074, guid: 419bf7a95ce43b847833705cfa58c35b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5032153666536681074, guid: 419bf7a95ce43b847833705cfa58c35b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7846167669493067059, guid: 419bf7a95ce43b847833705cfa58c35b, type: 3}
+      propertyPath: m_Name
+      value: Vase (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7846167669493067059, guid: 419bf7a95ce43b847833705cfa58c35b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 147106492}
+  m_SourcePrefab: {fileID: 100100000, guid: 419bf7a95ce43b847833705cfa58c35b, type: 3}
 --- !u!1 &954920169
 GameObject:
   m_ObjectHideFlags: 0
@@ -778,6 +869,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e345c5f5cff78e45b0f826f5a455922, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1001 &1017865493
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -789,6 +883,10 @@ PrefabInstance:
     - target: {fileID: 1595064583986059574, guid: b25277b7e28aa4446a996b11092272d7, type: 3}
       propertyPath: m_Name
       value: Pan
+      objectReference: {fileID: 0}
+    - target: {fileID: 1595064583986059574, guid: b25277b7e28aa4446a996b11092272d7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6779116624177824449, guid: b25277b7e28aa4446a996b11092272d7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1057,6 +1155,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898750957}
     m_Modifications:
+    - target: {fileID: 2850343407404011630, guid: 3e01dc6d013788b42aaa842e2bfa42d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7249854829358390080, guid: 3e01dc6d013788b42aaa842e2bfa42d8, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1141,6 +1243,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 7875994010204107239, guid: 3e01dc6d013788b42aaa842e2bfa42d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7875994010204107239, guid: 3e01dc6d013788b42aaa842e2bfa42d8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1184,6 +1294,10 @@ PrefabInstance:
     - target: {fileID: 1241725023244161917, guid: 7474ef2a457c13745bd61cd0af76274f, type: 3}
       propertyPath: m_Name
       value: Cooker
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241725023244161917, guid: 7474ef2a457c13745bd61cd0af76274f, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2476534665131318986, guid: 7474ef2a457c13745bd61cd0af76274f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1395,6 +1509,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 395196198}
     m_Modifications:
+    - target: {fileID: 2850343407404011630, guid: 3e01dc6d013788b42aaa842e2bfa42d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7249854829358390080, guid: 3e01dc6d013788b42aaa842e2bfa42d8, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1479,6 +1597,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 7875994010204107239, guid: 3e01dc6d013788b42aaa842e2bfa42d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7875994010204107239, guid: 3e01dc6d013788b42aaa842e2bfa42d8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1492,6 +1618,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 488051198}
     m_Modifications:
+    - target: {fileID: 2850343407404011630, guid: 3e01dc6d013788b42aaa842e2bfa42d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6156803342504771973, guid: 3e01dc6d013788b42aaa842e2bfa42d8, type: 3}
       propertyPath: m_Camera
       value: 
@@ -1580,6 +1710,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 7875994010204107239, guid: 3e01dc6d013788b42aaa842e2bfa42d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7875994010204107239, guid: 3e01dc6d013788b42aaa842e2bfa42d8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1605,3 +1743,4 @@ SceneRoots:
   - {fileID: 885423487}
   - {fileID: 1017865493}
   - {fileID: 88443982}
+  - {fileID: 924893268}

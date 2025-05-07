@@ -6,14 +6,25 @@ public class Mouse : MonoBehaviour
 {
     [SerializeField] Ray ray;
     [SerializeField] RaycastHit rayCastHit;
+    [SerializeField] LayerMask layerMask;
 
     private void Update()
     {
         if(Input.GetMouseButtonDown(0))
         {
             ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if(Physics.Raycast(ray,out rayCastHit,Mathf.Infinity))
+            if(Physics.Raycast(ray,out rayCastHit,Mathf.Infinity,layerMask))
             {
+                GameObject prefab = rayCastHit.collider.gameObject;
+
+                if(prefab.transform.GetChild(0).gameObject.activeSelf)
+                {
+                    prefab.transform.GetChild(0).gameObject.SetActive(false);
+                }
+                else
+                {
+                    prefab.transform.GetChild(0).gameObject.SetActive(true);
+                }
                 Debug.Log(rayCastHit.collider.name);
             }
         }
